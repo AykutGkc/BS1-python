@@ -15,7 +15,7 @@ gewicht_letztes_feld_kg = koerner_letztes_feld * gewicht_reiskorn
 koerner_gesamt = (2 ** felder) - 1
 gewicht_gesamt_kg = koerner_gesamt * gewicht_reiskorn
 
-print(f"\nOyun tahtasındaki toplam kare sayısı: {felder}")
-print(f"Son karedeki (letztes Feld) pirinç tanelerinin ağırlığı: {gewicht_letztes_feld_kg} kg")
-print(f"Tüm tahtadaki (Gesamt) pirinç tanelerinin toplam ağırlığı: {gewicht_gesamt_kg} kg")
+print(f"Anzahl Felder: {felder}")
+print(f"letztes Feld: {gewicht_letztes_feld_kg} kg")
+print(f"Gesamt: {gewicht_gesamt_kg} kg")
  
